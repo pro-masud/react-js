@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import './css/Main.css';
+import SectionOne from './section/Section';
+import SectionTwo from './section/SectionTwo';
+import SectionThree from './section/SectionThree';
 
-const prodev = ReactDOM.createRoot(document.getElementById('prodev'));
+const root = ReactDOM.createRoot(document.getElementById('root'));
 
-prodev.render(
-  <div>
-    <h1>React Js</h1>
-    <p>This is a React JS</p>
-  </div>
+root.render(
+  <>
+    <SectionOne />
+    <SectionTwo />
+    <SectionThree />
+  </>
 )

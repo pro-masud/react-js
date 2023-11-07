@@ -1,0 +1,266 @@
+*{
+    padding: 0%;
+    margin: 0;
+    justify-content: space-between;
+    font-family: sans-serif, monospace;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+ .section{
+    min-width: 100%;
+    min-height: 120vh;
+    background-image: linear-gradient(rgba(100, 113, 160, 0.7),rgba(15, 15, 15, 0.92));
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-bottom: 8px solid rgb(58, 56, 56);
+ }
+
+
+
+ .heading {
+    width: 90%;
+    margin: auto;
+    padding: 23px 0px 0px 0px;
+    display: flex;
+}
+
+.main-head a {
+    color: red;
+    font-size: 47px;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+.main-head-left a {
+    font-size: 19px;
+    padding: 2px 9px 2px 9px;
+    border-radius: 5px;
+}
+
+.main-head {
+    margin-top: -18px;
+}
+
+.middle-head {
+    width: 100%;
+    float: left;
+}
+
+.middle-content {
+    padding: 160px 100px 0px 100px;
+}
+
+.middle-content h1 {
+    font-size: 49px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+
+.middle-content h5 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+
+.middle-content p {
+    color: white;
+    margin: auto;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+.subscribe{
+ width: 60%;
+align-items: center;
+flex-direction: row;
+margin: auto;
+}
+
+.subscribe input{
+    width: 68%;
+    float: left;
+    padding: 13px ;
+    background-color: #0e0c0c;
+    border: none;
+    border-radius: 5px;
+    margin-right: 6px;
+}
+
+.subscribe button{
+    font-size: 23px;
+    display: flex;
+    font-weight: 800;
+    float: left;
+    padding: 7px 10px 7px 10px;
+
+}
+
+.subscribe button i{
+    margin-left: 20px;
+    font-weight : 600;
+
+}
+
+@media(max-width : 768px){
+
+    .main-head {
+        margin-top: -5px;
+    }
+
+    .main-head a {
+        color: red;
+        font-size: 27px;
+        font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    }
+    
+    .middle-content {
+        padding: 160px 10px 0px 10px;
+    }
+
+
+    .main-head-left a {
+        font-size: 19px;
+        padding: 0px 9px -0px 9px;
+        border-radius: 5px;
+       
+    }
+
+    .middle-content h1 {
+        font-size: 30px;
+        color: white;
+        font-family: sans-serif;
+        font-weight: bold;
+        margin-bottom: 23px;
+        text-align: center;
+    }
+
+    .subscribe{
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .subscribe input{
+        width: 100%;
+    }
+
+    .subscribe button{
+        width: 80%;
+     
+        font-size: 15px;
+        padding: 10px;
+        
+    }
+
+}
+
+
+/* section tv */
+
+.tv{
+    background: #000;
+    width: 100%;
+    border-bottom: 7px solid rgb(39, 39, 39);
+}
+
+.enjoy-tv{
+    width: 100%;
+    margin: auto;
+    padding: 80px 50px 80px 50px;
+    
+}
+
+.row{
+    display: flex;
+}
+
+.enjoy-tv-main{
+    flex-basis: 45%;
+}
+
+.enjoy-tv-main h1{
+    color: white;
+    font-size: 40px;
+}
+
+.enjoy-tv-main p{
+    color: white;
+    font-size: 19px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+
+.enjoy-tv-main img{
+    width: 90%;
+}
+
+
+
+@media(min-width : 768px){
+   
+    
+    
+}
+
+
+
+/* section mobile */
+
+.mobile{
+    background-color: #000;
+    width: 100%;
+    border-bottom: 7px solid rgb(36, 36, 36);
+}
+
+
+.mobile-main{
+    width: 100%;
+    margin: auto;
+    padding: 80px 50px 80px 50px;
+}
+
+.row{
+    display: flex;
+}
+
+
+.mobile-app{
+    flex-basis: 48%;
+}
+
+.mobile-app h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+.mobile-app p{
+    font-size: 19px;
+    font-weight: 400;
+    color: white;
+}
+
+.mobile-app img{
+    width: 90%;
+}
+
+
+.headingSection{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../image/BD-en-20231030-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+}
